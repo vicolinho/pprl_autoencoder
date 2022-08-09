@@ -1,6 +1,7 @@
 .env
 !__init__.py
 *.ipynb
-
+.idea
+*.log
 # Project exclude paths
 /venv/
