@@ -1,0 +1,6 @@
+.env
+!__init__.py
+*.ipynb
+
+# Project exclude paths
+/venv/

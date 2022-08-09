@@ -1,0 +1,5 @@
+SIZE_A: 50000
+SIZE_B: 50000
+OVERLAP: 10000
+hf:30
+atts: fn,ln,mn, yob

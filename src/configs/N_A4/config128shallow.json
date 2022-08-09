@@ -1,0 +1,47 @@
+{
+    "autoencoder": {
+        "input_dimension": 1024,
+        "encoder_hidden_dimensions": [],
+        "encoding_dimension": 128,
+        "decoder_hidden_dimensions": [],
+        "output_dimension": 1024,
+        "activation_function": "soft_relu",
+        "training_dataset": "NCVR_4",
+        "validation_split": 0.15,
+        "loss_function": "mae",
+        "training_epochs": 100,
+        "batch_size": 256,
+        "save_path_a": "./__model_a",
+        "save_path_b": "./__model_b",
+        "log_file_a": "__fit_a.csv",
+        "log_file_b": "__fit_b.csv"
+    },
+
+    "encoder":{
+        "encoding_dataset": "NCVR_4",
+        "path_encoded_a": "__encoded_a.pkl",
+        "path_meta_a": "__mean_covar_a.pkl",
+        "path_encoded_b": "__encoded_b.pkl",
+        "path_meta_b": "__mean_covar_b.pkl"
+    },
+
+    "mapper": {
+        "hidden_dimensions": [1024],
+        "loss_function": "mae",
+        "validation_split": 0.15,
+        "training_epochs": 100,
+        "batch_size": 256,
+        "save_path": "./__mapper",
+        "logger_path": "__fit_mapper.csv"
+    },
+
+    "linking": {
+        "training_data_length": 200000,
+        "random_data_path": "__generated_data.pkl",
+        "decoded_data_path": "__decoded_data.pkl",
+        "encoded_data_path": "__encoded_data.pkl",
+           "linking_thresholds":  [0.02,0.04,0.06,0.08,0.10,0.12,0.14,0.16,0.18,0.2,0.22,0.24,0.26,0.28,0.30,0.32, 0.34, 0.36, 0.38,
+            0.4, 0.42, 0.44, 0.46, 0.48, 0.5, 0.52, 0.54, 0.56, 0.58, 0.6],
+        "result_logger_path":"linking_results_4.txt"
+    }
+}

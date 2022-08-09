@@ -1,0 +1,6 @@
+SIZE_A: 120000
+SIZE_B: 80000
+OVERLAP: 40000
+hf: 30
+attributes: first,last,middle,yob
+

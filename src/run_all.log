@@ -1,0 +1,167 @@
+INFO:root:Starting new run: 2022-08-09 14:28:58 
+INFO:root:skipped "config128.json", corresponding directory already exists!
+ERROR:root:[Errno 2] No such file or directory: '.data/ncvr/n_4/data_a.csv'
+Traceback (most recent call last):
+  File "C:/Users/christen/PycharmProjects/pprl_autoencoder/src/run_all_configs.py", line 142, in <module>
+    run_all(config, cleanup=True)
+  File "C:/Users/christen/PycharmProjects/pprl_autoencoder/src/run_all_configs.py", line 34, in run_all
+    config["autoencoder"]["log_file_a"])
+  File "C:\Users\christen\PycharmProjects\pprl_autoencoder\src\encode_scripts\fit_encoder.py", line 28, in fit_encoder
+    data = load_data_memory(DATA_PATHS[training_data][dataset], split=False)
+  File "C:\Users\christen\PycharmProjects\pprl_autoencoder\src\data_processing\input_pipeline.py", line 74, in load_data_memory
+    with open(path, "r") as csv:
+FileNotFoundError: [Errno 2] No such file or directory: '.data/ncvr/n_4/data_a.csv'
+INFO:root:using config file "config128shallow.json"
+ERROR:root:[WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config256'
+Traceback (most recent call last):
+  File "C:/Users/christen/PycharmProjects/pprl_autoencoder/src/run_all_configs.py", line 138, in <module>
+    os.mkdir(wd)
+FileNotFoundError: [WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config256'
+INFO:root:using config file "config256.json"
+ERROR:root:[WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config256shallow'
+Traceback (most recent call last):
+  File "C:/Users/christen/PycharmProjects/pprl_autoencoder/src/run_all_configs.py", line 138, in <module>
+    os.mkdir(wd)
+FileNotFoundError: [WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config256shallow'
+INFO:root:using config file "config256shallow.json"
+ERROR:root:[WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config64'
+Traceback (most recent call last):
+  File "C:/Users/christen/PycharmProjects/pprl_autoencoder/src/run_all_configs.py", line 138, in <module>
+    os.mkdir(wd)
+FileNotFoundError: [WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config64'
+INFO:root:using config file "config64.json"
+ERROR:root:[WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config64shallow'
+Traceback (most recent call last):
+  File "C:/Users/christen/PycharmProjects/pprl_autoencoder/src/run_all_configs.py", line 138, in <module>
+    os.mkdir(wd)
+FileNotFoundError: [WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config64shallow'
+INFO:root:using config file "config64shallow.json"
+INFO:root:Starting new run: 2022-08-09 15:48:09 
+ERROR:root:[Errno 2] No such file or directory: '.data/ncvr/n_4/data_a.csv'
+Traceback (most recent call last):
+  File "C:/Users/christen/PycharmProjects/pprl_autoencoder/src/run_all_configs.py", line 142, in <module>
+    run_all(config, cleanup=True)
+  File "C:/Users/christen/PycharmProjects/pprl_autoencoder/src/run_all_configs.py", line 34, in run_all
+    config["autoencoder"]["log_file_a"])
+  File "C:\Users\christen\PycharmProjects\pprl_autoencoder\src\encode_scripts\fit_encoder.py", line 28, in fit_encoder
+    data = load_data_memory(DATA_PATHS[training_data][dataset], split=False)
+  File "C:\Users\christen\PycharmProjects\pprl_autoencoder\src\data_processing\input_pipeline.py", line 74, in load_data_memory
+    with open(path, "r") as csv:
+FileNotFoundError: [Errno 2] No such file or directory: '.data/ncvr/n_4/data_a.csv'
+INFO:root:using config file "config128.json"
+ERROR:root:[WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config128shallow'
+Traceback (most recent call last):
+  File "C:/Users/christen/PycharmProjects/pprl_autoencoder/src/run_all_configs.py", line 138, in <module>
+    os.mkdir(wd)
+FileNotFoundError: [WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config128shallow'
+INFO:root:using config file "config128shallow.json"
+ERROR:root:[WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config256'
+Traceback (most recent call last):
+  File "C:/Users/christen/PycharmProjects/pprl_autoencoder/src/run_all_configs.py", line 138, in <module>
+    os.mkdir(wd)
+FileNotFoundError: [WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config256'
+INFO:root:using config file "config256.json"
+ERROR:root:[WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config256shallow'
+Traceback (most recent call last):
+  File "C:/Users/christen/PycharmProjects/pprl_autoencoder/src/run_all_configs.py", line 138, in <module>
+    os.mkdir(wd)
+FileNotFoundError: [WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config256shallow'
+INFO:root:using config file "config256shallow.json"
+ERROR:root:[WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config64'
+Traceback (most recent call last):
+  File "C:/Users/christen/PycharmProjects/pprl_autoencoder/src/run_all_configs.py", line 138, in <module>
+    os.mkdir(wd)
+FileNotFoundError: [WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config64'
+INFO:root:using config file "config64.json"
+ERROR:root:[WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config64shallow'
+Traceback (most recent call last):
+  File "C:/Users/christen/PycharmProjects/pprl_autoencoder/src/run_all_configs.py", line 138, in <module>
+    os.mkdir(wd)
+FileNotFoundError: [WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config64shallow'
+INFO:root:using config file "config64shallow.json"
+INFO:root:Starting new run: 2022-08-09 15:49:01 
+ERROR:root:[Errno 2] No such file or directory: '../data/ncvr/n_4/data_a.csv'
+Traceback (most recent call last):
+  File "C:/Users/christen/PycharmProjects/pprl_autoencoder/src/run_all_configs.py", line 142, in <module>
+    run_all(config, cleanup=True)
+  File "C:/Users/christen/PycharmProjects/pprl_autoencoder/src/run_all_configs.py", line 34, in run_all
+    config["autoencoder"]["log_file_a"])
+  File "C:\Users\christen\PycharmProjects\pprl_autoencoder\src\encode_scripts\fit_encoder.py", line 28, in fit_encoder
+    data = load_data_memory(DATA_PATHS[training_data][dataset], split=False)
+  File "C:\Users\christen\PycharmProjects\pprl_autoencoder\src\data_processing\input_pipeline.py", line 74, in load_data_memory
+    with open(path, "r") as csv:
+FileNotFoundError: [Errno 2] No such file or directory: '../data/ncvr/n_4/data_a.csv'
+INFO:root:using config file "config128.json"
+ERROR:root:[WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config128shallow'
+Traceback (most recent call last):
+  File "C:/Users/christen/PycharmProjects/pprl_autoencoder/src/run_all_configs.py", line 138, in <module>
+    os.mkdir(wd)
+FileNotFoundError: [WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config128shallow'
+INFO:root:using config file "config128shallow.json"
+ERROR:root:[WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config256'
+Traceback (most recent call last):
+  File "C:/Users/christen/PycharmProjects/pprl_autoencoder/src/run_all_configs.py", line 138, in <module>
+    os.mkdir(wd)
+FileNotFoundError: [WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config256'
+INFO:root:using config file "config256.json"
+ERROR:root:[WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config256shallow'
+Traceback (most recent call last):
+  File "C:/Users/christen/PycharmProjects/pprl_autoencoder/src/run_all_configs.py", line 138, in <module>
+    os.mkdir(wd)
+FileNotFoundError: [WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config256shallow'
+INFO:root:using config file "config256shallow.json"
+ERROR:root:[WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config64'
+Traceback (most recent call last):
+  File "C:/Users/christen/PycharmProjects/pprl_autoencoder/src/run_all_configs.py", line 138, in <module>
+    os.mkdir(wd)
+FileNotFoundError: [WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config64'
+INFO:root:using config file "config64.json"
+ERROR:root:[WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config64shallow'
+Traceback (most recent call last):
+  File "C:/Users/christen/PycharmProjects/pprl_autoencoder/src/run_all_configs.py", line 138, in <module>
+    os.mkdir(wd)
+FileNotFoundError: [WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config64shallow'
+INFO:root:using config file "config64shallow.json"
+INFO:root:Starting new run: 2022-08-09 15:52:25 
+ERROR:root:[Errno 2] No such file or directory: '../../../data/ncvr/n_4/data_a.csv'
+Traceback (most recent call last):
+  File "C:/Users/christen/PycharmProjects/pprl_autoencoder/src/run_all_configs.py", line 142, in <module>
+    run_all(config, cleanup=True)
+  File "C:/Users/christen/PycharmProjects/pprl_autoencoder/src/run_all_configs.py", line 34, in run_all
+    config["autoencoder"]["log_file_a"])
+  File "C:\Users\christen\PycharmProjects\pprl_autoencoder\src\encode_scripts\fit_encoder.py", line 28, in fit_encoder
+    data = load_data_memory(DATA_PATHS[training_data][dataset], split=False)
+  File "C:\Users\christen\PycharmProjects\pprl_autoencoder\src\data_processing\input_pipeline.py", line 74, in load_data_memory
+    with open(path, "r") as csv:
+FileNotFoundError: [Errno 2] No such file or directory: '../../../data/ncvr/n_4/data_a.csv'
+INFO:root:using config file "config128.json"
+ERROR:root:[WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config128shallow'
+Traceback (most recent call last):
+  File "C:/Users/christen/PycharmProjects/pprl_autoencoder/src/run_all_configs.py", line 138, in <module>
+    os.mkdir(wd)
+FileNotFoundError: [WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config128shallow'
+INFO:root:using config file "config128shallow.json"
+ERROR:root:[WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config256'
+Traceback (most recent call last):
+  File "C:/Users/christen/PycharmProjects/pprl_autoencoder/src/run_all_configs.py", line 138, in <module>
+    os.mkdir(wd)
+FileNotFoundError: [WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config256'
+INFO:root:using config file "config256.json"
+ERROR:root:[WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config256shallow'
+Traceback (most recent call last):
+  File "C:/Users/christen/PycharmProjects/pprl_autoencoder/src/run_all_configs.py", line 138, in <module>
+    os.mkdir(wd)
+FileNotFoundError: [WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config256shallow'
+INFO:root:using config file "config256shallow.json"
+ERROR:root:[WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config64'
+Traceback (most recent call last):
+  File "C:/Users/christen/PycharmProjects/pprl_autoencoder/src/run_all_configs.py", line 138, in <module>
+    os.mkdir(wd)
+FileNotFoundError: [WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config64'
+INFO:root:using config file "config64.json"
+ERROR:root:[WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config64shallow'
+Traceback (most recent call last):
+  File "C:/Users/christen/PycharmProjects/pprl_autoencoder/src/run_all_configs.py", line 138, in <module>
+    os.mkdir(wd)
+FileNotFoundError: [WinError 3] Das System kann den angegebenen Pfad nicht finden: './configs/N_A4\\config64shallow'
+INFO:root:using config file "config64shallow.json"
